@@ -1,0 +1,156 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 17, 2015, 1:29:25 PM
+    Author     : jhackett
+*/
+
+
+/** *****************************************************************************************************************************
+ *                                                                                                                              *
+ *                                                          GLOBAL CSS                                                          *
+ *                                                                                                                              *
+ ****************************************************************************************************************************** */
+
+html, body { 
+    height: 100%; 
+} /* to force footer to the bottom, regardless of content */
+
+body {
+  font: normal 12px Arial, Helvetica, sans-serif; color: #606060; background: #f0f3eb url(../images/pagebg.jpg) repeat-x; margin: 0; padding: 0;
+}
+
+a {
+  color: #5398d7; text-decoration: none; border-bottom: 1px solid #5398d7; outline: none;
+}
+
+a:hover { 
+    color: #2b6497; border-bottom: 1px solid #2b6497;
+}
+
+label {
+    cursor: pointer; font-weight: bold;
+}
+
+input[type=text], input[type=tel], select {
+    display: block; width: 99%; height: 25px; border: thin solid #5398d7; margin: 2px 0px 20px 0px; padding: 2px; box-shadow: #eee 2px 2px 2px;
+}
+
+select {
+    height: 30px;
+}
+
+
+
+/** *****************************************************************************************************************************
+ *                                                                                                                              *
+ *                                                          CLASSES                                                             *
+ *                                                                                                                              *
+ ****************************************************************************************************************************** */
+
+.container {
+    width: 90%; max-width: 1000px; margin: 0px auto; padding: 0px 20px 20px 20px;
+}
+
+.center {
+    text-align: center; margin-left: auto; margin-right: auto;
+}
+
+.justified {
+    text-align: justify;
+}
+
+.form_box {
+    padding: 30px; max-width: 60%; margin: 0px auto; background-color: white; box-shadow: #bbb 2px 2px 10px;
+}
+
+.checkbox_protector {
+    width: 20px; height: 45px; float: left;
+}
+
+.splash_image {
+    margin: 0px auto; width: 95%;
+}
+
+.splash_image img {
+    width: 100%; height: auto; margin: 0px auto; box-shadow: #222 5px 5px 15px; -webkit-box-shadow: #222 5px 5px 15px; -moz-box-shadow: #222 5px 5px 15px;
+}
+
+.button {
+    padding: 20px; text-align: center; border: thin solid darkblue; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; margin: 5px auto;
+    box-shadow: #222 3px 3px 3px;
+}
+
+.button a, .button a:hover, .button a:active, .button a:focus {
+    color: white; text-decoration: none; border-bottom: none;
+}
+
+.submit-btn {
+    padding: 12px; background-color: #000646; color: white; font-weight: bold; font-size: 17px; margin-top: 20px;
+}
+
+.submit-btn:hover, .submit-btn:active, .submit-btn:focus {
+    background-color: #005696; border: thin solid darkblue;
+}
+
+.enter-btn {
+    width: 250px; background-color: #005696; color: white; font-size: 17px; font-weight: bold;
+}
+
+.enter-btn:hover, .enter-btn:active, .enter-btn:focus {
+    background-color: #000646; 
+}
+
+.yelling_under {
+    font-weight: bold; text-transform: uppercase; text-decoration: underline;
+}
+
+.bold_under {
+    font-weight: bold; text-decoration: underline;
+}
+
+.content.landing {
+    font-size: 14px;
+}
+
+.half-left {
+    width: 48%; float: left; margin: 0 2% 0 0;
+}
+
+.half-right {
+    width: 48%; float: right; margin: 0 0 0 2%;
+}
+
+
+
+/** *****************************************************************************************************************************
+ *                                                                                                                              *
+ *                                                          ID's                                                                *
+ *                                                                                                                              *
+ ****************************************************************************************************************************** */
+
+#upload_div {
+    margin-bottom: 20px; padding: 5px 0px;
+}
+
+#header {
+    width: 300px; height: 200px; background: url(../images/your_logo_here.png) no-repeat center center; margin: 10px auto 30px auto;
+}
+
+
+
+@media(max-width: 900px) {
+    .form_box {
+        max-width: 80%;
+    }
+}
+
+@media(max-width: 600px) {
+    .form_box {
+        max-width: 100%;
+    }
+}
+
