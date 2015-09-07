@@ -12,7 +12,8 @@ Photo upload and cropping PHP class
  * It also can take the image and make a square crop of the image.
  * The class can also resize the image while keeping the original ratios
  * 
- * Plans to add merging functions to this as well for the rare case that we need to merge two images together for whatever reason
+ * 
+ * PLEASE NOTE:: the gd lib is required for this (sudo apt-get install php5-gd)
  * 
  * 
  * usage :
